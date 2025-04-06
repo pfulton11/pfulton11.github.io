@@ -1,0 +1,350 @@
+h1{
+    font-size: 112px; 
+    text-align: center; 
+    font-family: 'Moirai One', sans-serif;
+    color: #FFFFFF;
+}
+body {
+    margin: 0;
+    background: black;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.ticket_head {
+    font-size: 112px; 
+    text-align: center; 
+    font-family: 'Moirai One', sans-serif;
+    color: #14A76C;
+    margin-bottom: 0px;
+}
+
+.about_head {
+    font-size: 112px; 
+    text-align: center; 
+    font-family: 'Moirai One', sans-serif;
+    color: #B5E655;
+    margin-bottom: 0px;
+}
+
+.home_head {
+    font-size: 112px; 
+    text-align: center; 
+    font-family: 'Moirai One', sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.lineup_head{
+    font-size: 112px; 
+    text-align: center; 
+    font-family: 'Moirai One', sans-serif;
+    color: #8B5CF6;
+    margin-bottom: 0px;
+}
+
+.accomodation_head{
+    font-size: 112px; 
+    text-align: center; 
+    font-family: 'Moirai One', sans-serif;
+    color: #1E90FF;
+    margin-bottom: 0px;
+}
+
+.link{ 
+    font-size: 30px; 
+    text-align: center; 
+    font-family: 'Moirai One', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tickets{
+    color: #14A76C;
+}
+
+.lineup{
+    color: #8B5CF6
+}
+
+.accomodation{
+    color: #1E90FF
+}
+
+.home{
+    color: #FF0A9C
+}
+
+.about{
+    color: #B5E655
+}
+
+.div2{
+    border: #14A76C;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.home-pg-descrip{
+    font-size: 20px; 
+    text-align: center; 
+    font-family: 'Palanquin', sans-serif;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #FFFFFF
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+    width: 100%; 
+  }
+
+  .ticket_type {
+    font-size: 30px;
+    font-family: 'Palanquin', sans-serif;
+    text-decoration: none;
+    color: #14A76C;}
+  
+    .body {
+        background: #020b16;
+        overflow: hidden;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .aurora-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .aurora {
+        position: absolute;
+        width: 120vw;
+        height: 120vh;
+        filter: blur(150px);
+        opacity: 0; 
+        animation: fadeAurora 12s infinite alternate ease-in-out;
+    }
+    
+    .aurora1 { background: radial-gradient(circle, rgba(0, 255, 200, 0.5) 10%, rgba(0, 0, 0, 0) 80%); animation-delay: 0s; }
+    .aurora2 { background: radial-gradient(circle, rgba(0, 150, 255, 0.5) 10%, rgba(0, 0, 0, 0) 80%); animation-delay: 3s; }
+    .aurora3 { background: radial-gradient(circle, rgba(200, 0, 255, 0.5) 10%, rgba(0, 0, 0, 0) 80%); animation-delay: 6s; }
+    .aurora4 { background: radial-gradient(circle, rgba(255, 0, 150, 0.5) 10%, rgba(0, 0, 0, 0) 80%); animation-delay: 9s; }
+    
+    @keyframes fadeAurora {
+        0%, 100% { opacity: 0; }
+        50% { opacity: 1; } 
+    }
+  
+    .sza_img{
+        width: 350px;
+        height: 350px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+
+    .sza_descrip {
+        position: absolute;
+        top: 345px;
+        left: 600px;
+        font-size: 20px;
+        font-family: 'Palanquin', sans-serif;
+        color: #FFFFFF;
+       text-decoration: none;
+ 
+    }
+
+    .gaga_img{
+      position:absolute;
+      top: 800px;
+      left: 950px;
+      width: 350px;
+      height: 350px;
+    }
+
+    body {
+        height: 2000px;
+        overflow-y: scroll; 
+      }
+
+      .gaga_descrip {
+        position: absolute; 
+        top: 770px; 
+        right: 567px; 
+        font-size: 20px;
+        font-family: 'Palanquin', sans-serif;
+        color: #FFFFFF;
+       text-decoration: none;
+       text-align: right;
+      }
+
+    .rih_img{
+        position:absolute;
+        width: 350px;
+        height: 350px;
+        top: 1200px;
+        left: 200px;
+    }
+
+    .rih_descrip{
+        position: absolute; 
+        top: 1170px; 
+        left: 600px; 
+        font-size: 20px;
+        font-family: 'Palanquin', sans-serif;
+        color: #FFFFFF;
+       text-decoration: none;
+    }
+
+    .active_page{
+        font-size: 40px; 
+        text-align: center; 
+        font-family: 'Moirai One', sans-serif;
+        text-decoration: none;
+        margin-left: 20px;
+        margin-right: 20px;
+        color:#FFFFFF;
+    }
+
+    .hot1_img{
+        width: 350px;
+        height: 350px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+
+    .hot1_descrip {
+        position: absolute;
+        top: 345px;
+        left: 600px;
+        font-size: 20px;
+        font-family: 'Palanquin', sans-serif;
+        color: #FFFFFF;
+       text-decoration: none;
+    }
+
+    .hot2_img{
+        position:absolute;
+        top: 800px;
+        left: 950px;
+        width: 350px;
+        height: 350px;
+      }
+
+      .hot2_descrip {
+        position: absolute; 
+        top: 770px; 
+        right: 567px; 
+        font-size: 20px;
+        font-family: 'Palanquin', sans-serif;
+        color: #FFFFFF;
+       text-decoration: none;
+       text-align: right;
+      }
+
+      .hot3_img{
+        position:absolute;
+        width: 350px;
+        height: 350px;
+        top: 1200px;
+        left: 200px;
+      }
+
+      .hot3_descrip{
+        position: absolute; 
+        top: 1170px; 
+        left: 600px; 
+        font-size: 20px;
+        font-family: 'Palanquin', sans-serif;
+        color: #FFFFFF;
+       text-decoration: none;
+      }
+
+      .abt{
+        font-size: 20px; 
+        text-align: left; 
+        font-family: 'Palanquin', sans-serif;
+        text-decoration: none;
+        margin-left: 100px;
+        margin-right: 100px;
+        color: #FFFFFF
+      }
+
+      .shooting-star {
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 0 0 10px white, 0 0 20px lightblue;
+        animation: shoot 2s linear infinite;
+        opacity: 0;
+      }
+      
+      .shooting-star::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 15px;
+        height: 2px;
+        background: linear-gradient(to right, white, transparent);
+      }
+      
+      @keyframes shoot {
+        0% {
+          transform: translate(calc(100vw * -0.2), calc(100vh * -0.2));
+          opacity: 0;
+        }
+        10% {
+          opacity: 1;
+        }
+        100% {
+          transform: translate(calc(100vw * 1.2), calc(100vh * 1.2));
+          opacity: 0;
+        }
+      }
+
+      .post1_img{
+        position: absolute;
+        width: 450px;
+        top: 550px;
+        left: 200px;
+      }
+
+      .post2_img{
+        position: absolute;
+        width: 450px;
+        top: 550px;
+        right: 200px;
+      }
